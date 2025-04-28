@@ -23,10 +23,22 @@ To write a Python program to delete elements at FRONT END of deque using a colle
 
 ### PROGRAM  
 
-```
+```python
+
+import collections
+n1=input()
+n2=input()
+n3=input()
+de=collections.deque([n1,n2,n3])
+de.pop()
+print(f"The deque after deleting at right is :\n{de}")
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/55f56c3e-35f6-4836-ad37-60248a2268aa)
+
 
 ### RESULT
+
+The deque contains the elements deleted at the rear end: The deque after deleting at right is : deque(['p', 'y'])
